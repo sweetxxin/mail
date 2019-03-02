@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mail:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mail_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mail" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="commons-email-1.5" />
+          <element id="library" level="project" name="smartupload " />
+          <element id="library" level="project" name="commons-io-2.6" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mail/web/Web" />
+    </root>
+  </artifact>
+</component>
