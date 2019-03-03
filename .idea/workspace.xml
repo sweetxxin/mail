@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f58d7eab-75bc-4b8e-8469-c11c692ecccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/onlineMail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mail_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mail_war/mail_war.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/WEB-INF/classes/com/xxin/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/WEB-INF/classes/com/xxin/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/common/mail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/common/mail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mail_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mail/com/xxin/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mail/com/xxin/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xxin/conf/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xxin/conf/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xxin/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xxin/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/common/mail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/common/mail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +22,7 @@
     <session id="582792623">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="iml" value="2" />
           <entry key="java" value="7" />
           <entry key="jpg" value="1" />
@@ -43,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="7" />
@@ -56,14 +46,15 @@
         <counts>
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9" />
+          <entry key="html" value="14" />
           <entry key="java" value="38" />
           <entry key="js" value="1" />
           <entry key="jsp" value="193" />
@@ -72,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="14" />
           <entry key="JAVA" value="38" />
           <entry key="JSP" value="193" />
           <entry key="JavaScript" value="1" />
@@ -86,17 +77,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xxin/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxin/conf/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xxin/conf/Constants.java">
+        <entry file="file://$PROJECT_DIR$/web/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="91" lean-forward="true" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+            <state relative-caret-position="90">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -128,7 +128,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/xxin/controller/AttachController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxin/task/TimerTask.java" />
-        <option value="$PROJECT_DIR$/web/test.html" />
         <option value="$PROJECT_DIR$/web/static/js/wangEditor.min.js" />
         <option value="$PROJECT_DIR$/web/static/js/wangEditor.js" />
         <option value="$PROJECT_DIR$/web/detail.jsp" />
@@ -136,6 +135,7 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/xxin/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/src/com/xxin/conf/Constants.java" />
+        <option value="$PROJECT_DIR$/web/test.html" />
       </list>
     </option>
   </component>
@@ -183,34 +183,6 @@
             <path>
               <item name="mail" type="b2602c69:ProjectViewProjectNode" />
               <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xxin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xxin" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xxin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xxin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="MailController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,9 +213,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,6 +334,7 @@
       <workItem from="1551437553977" duration="343000" />
       <workItem from="1551452979886" duration="6270000" />
       <workItem from="1551547392271" duration="1915000" />
+      <workItem from="1551591515567" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="qq">
       <created>1551367001933</created>
@@ -433,16 +406,31 @@
       <option name="project" value="LOCAL" />
       <updated>1551372646006</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="qq">
+      <created>1551591603492</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551591603492</updated>
+    </task>
+    <task id="LOCAL-00012" summary="qq">
+      <created>1551591772605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1551591772605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17017000" />
+    <option name="totallyTimeSpent" value="17720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23362975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -490,13 +478,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/mail.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -511,14 +492,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/receive.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/my.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding>
-            <element signature="e#86#92#0" expanded="true" />
-            <element signature="e#92#98#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="e#189#195#0" expanded="true" />
-            <element signature="e#199#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,15 +576,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xxin/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xxin/conf/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="34" column="91" lean-forward="true" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
