@@ -32,6 +32,6 @@ public class Constants {
     public static final String GOOGLE_MAIL_IMAP_HOST="imap.gmail.com";
     public static final String ALI_MAIL_IMAP_HOST="imap.aliyun.com";
 
-    public static final String STATIC_RESOURCES_PATH = "http://localhost:8080/onlineMail/static";
+    public static final String STATIC_RESOURCES_PATH = "http://mails.sweetxxin.top/static";
 
 }

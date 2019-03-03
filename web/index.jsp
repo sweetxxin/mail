@@ -158,7 +158,7 @@
                     '</div>');
             }else{
                 $.cookie("uid",res.data);
-               window.location="main.jsp";
+               window.location="./main.jsp";
             }
           }
       )

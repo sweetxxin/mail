@@ -197,7 +197,7 @@
 </div>
 </body>
 </html>
-<script type="text/javascript" src="http://localhost:8080/onlineMail/static/js/wangEditor.min.js"></script>
+<script type="text/javascript" src="./static/js/wangEditor.min.js"></script>
 <script type="text/javascript">
     var E = window.wangEditor
     var editor = new E('#richContent');

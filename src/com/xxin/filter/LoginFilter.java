@@ -19,11 +19,13 @@ public class LoginFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest r = (HttpServletRequest)request;
-        if (!(r.getSession().getAttribute("loginStatus")!=null&&r.getSession().getAttribute("loginStatus").equals("already"))){
-            ((HttpServletResponse)response).sendRedirect("index.jsp");
-        }else {
-            filterChain.doFilter(request,response);
-        }
+//        if (!(r.getSession().getAttribute("loginStatus")!=null&&r.getSession().getAttribute("loginStatus").equals("already"))){
+//            ((HttpServletResponse)response).sendRedirect("index.jsp");
+//            System.out.println("未登录");
+//        }else {
+//            filterChain.doFilter(request,response);
+//        }
+        filterChain.doFilter(request,response);
     }
 
     @Override
