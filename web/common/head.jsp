@@ -5,7 +5,7 @@
     <script src="./static/js/frame.js"></script>
 </head>
 <body>
-<div class="page-header header">
+<div class="page-header header" style="padding-bottom: 1%">
     <h1>邮件代收发系统<small></small></h1>
     <div class="btn-group btn-div">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

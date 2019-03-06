@@ -74,6 +74,7 @@
                     $('#bind-mail-ul').append('<li class="list-group-item">'+$('#bindMail').val()+' <button id="delete" onclick="deleteMail('+"'"+$('#bindMail').val()+"'"+')" class="btn btn-primary" type="button">删除</button></li>');
                     localStorage.setItem("bind",  (localStorage.getItem("bind")+","+$('#bindMail').val()));
                     $('#bindMail').val("");
+                    $('#auth').val("");
                 }
                 alert(res.msg);
             }

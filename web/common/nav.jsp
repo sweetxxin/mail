@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        .nav li{
+            height: 10%;
+        }
+    </style>
 </head>
 <body>
 <ul class="nav nav-pills nav-stacked nav-ul" >
