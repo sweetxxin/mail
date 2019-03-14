@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="onlineMail">
-    <output-path>$PROJECT_DIR$/out/artifacts/onlineMail</output-path>
-    <root id="archive" name="onlineMail.war">
-      <element id="artifact" artifact-name="mail:war exploded" />
-    </root>
-  </artifact>
-</component>
