@@ -5,6 +5,7 @@ import com.xxin.dao.UserDao;
 import com.xxin.entity.Bind;
 import com.xxin.entity.User;
 import com.xxin.utils.EncryptUtil;
+import com.xxin.utils.MailUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,6 +25,7 @@ public class UserService {
         String[] key = {"mail","uid"};
         String[] val = {mail,uid};
         List<Bind> b = bindDao.query(key,val);
+
         if (b!=null){
             Bind bind = b.get(0);
             bind.setAuth(auth);
@@ -33,7 +35,12 @@ public class UserService {
             bind.setUid(uid);
             bind.setMail(mail);
             bind.setAuth(auth);
-            return bindDao.save(bind);
+            if (MailUtil.connect(mail,auth ,"imap" )!=null){
+                return bindDao.save(bind);
+            }else {
+                return -1;
+            }
+
         }
     }
     public int remove(String uid,String mail){
